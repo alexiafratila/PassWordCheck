@@ -1,4 +1,3 @@
-Documentație
 Am creat o funcție numită “checkPassword” care primește un string s ca parametru. Pentru început am inițializat cu lungimea stringului cu variabila n si un Boolean cu valoarea false pentru fiecare condiție: parola să aibă cel puțin o literă mare (checkUppercase), parola să aibă cel puțin o literă mică (checkLowercase), să aibă cel puțin o cifră (checkDigit) și 3 caractere consecutive să nu se repete (checkRepeatLetter). 
 M-am gândit să parcurg tot stringul și să verific dacă gasesc toate cele 3 condiții de mai sus (literă mare, literă mica și cifră) și în cazul în care găseam modificam Boolean-urile respective în true.
 Cu variabila missingCondition inițializată cu 0, număr câte condiții îmi lipsesc și încep să tratez următoarele cazuri:

@@ -42,5 +42,7 @@ public class Passwrd {
             if (n > 20 && missingCondition != 0)
                 return n - 20 + missingCondition;
             return n;
+
         }
+
 }
